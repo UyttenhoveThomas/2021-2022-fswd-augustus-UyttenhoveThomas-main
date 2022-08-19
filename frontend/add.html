@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/screen.css" />
+    <script src="script/datahandler.js"></script>
+    <script src="script/app.js"></script>
+  </head>
+  <body class="js-addpage">
+    <h1>Voeg een drop off zone toe</h1>
+
+    <div class="c-formitem">
+      <label for="omschrijving" class="c-formitem__label">Omschrijving</label>
+      <input type="text" name="omschrijving" id="omschrijving" class="js-add-omschrijving c-formitem__control" />
+    </div>
+
+    <div class="c-formitem">
+      <label for="straat" class="c-formitem__label">Straat</label>
+      <input type="text" name="straat" id="straat" class="js-add-straat c-formitem__control" />
+    </div>
+
+    <div class="c-formitem">
+      <label for="huisnummer" class="c-formitem__label">huisnr</label>
+      <input type="text" name="huisnummer" id="huisnummer" class="js-add-huisnummer c-formitem__control" />
+    </div>
+
+    <div class="c-formitem">
+      <label for="lat" class="c-formitem__label">Latitude</label>
+      <input type="number" name="lat" id="lat" step="0.01" value="50.81" class="js-add-lat c-formitem__control" />
+    </div>
+
+    <div class="c-formitem">
+      <label for="long" class="c-formitem__label">Longitude</label>
+      <input type="number" name="long" id="long" step="0.01" value="3.24" class="js-add-long c-formitem__control" />
+    </div>
+
+    <div class="c-formitem">
+      <button class="js-verzenden c-formitem__btn">Voeg toe</button>
+    </div>
+  </body>
+</html>
